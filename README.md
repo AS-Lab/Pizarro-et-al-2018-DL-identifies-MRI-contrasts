@@ -10,7 +10,7 @@ We developed two sequential neural networks to identify the brain MRI contrast. 
 We have uploaded Python scripts that can be used to reproduce our results.  Unfortunately the data cannot be released for the public but we expect our results to be reproducible.  The Python scripts can be used to (1) define the neural network (NN) acrhitecture, (2) train the NN, and (3) test the NN.
 
 ### Define the neural network
-The (modality.save_NNarch_toJson.py)[https://github.com/ricardopizarro/MRI-contrast/blob/master/src/modality.save_NNarch_toJson.py] script was used to define the architectures of the two networks and save them as .json string files to later be loaded during the training and testing phase.  The architecture can be modified to meet different requirements including data size, number of classes (MRI contrast) to model, and architecture parameters.  
+The [modality.save_NNarch_toJson.py](https://github.com/ricardopizarro/MRI-contrast/blob/master/src/modality.save_NNarch_toJson.py) script was used to define the architectures of the two networks and save them as .json string files to later be loaded during the training and testing phase.  The architecture can be modified to meet different requirements including data size, number of classes (MRI contrast) to model, and architecture parameters.  
 ```
 $ python modality.save_NNarch_toJson.py
 ```
