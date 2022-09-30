@@ -11,7 +11,7 @@ h5py==2.6.0
 idna==2.6
 ipython==5.2.2
 ipython-genutils==0.1.0
-joblib==0.10.3
+joblib==1.2.0
 Keras==2.0.2
 Lasagne==0.1
 matplotlib==1.5.3
